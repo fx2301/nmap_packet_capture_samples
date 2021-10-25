@@ -1,0 +1,15 @@
+# Nmap 7.91 scan initiated xxx xxx xx xx:xx:xx:xx xxxx as: nmap -n -Pn -sF -sV --top-ports 1000 -oN data/nmap_fin_scan_with_version_10.10.10.244_top_1000.nmap -vv 10.10.10.244
+Nmap scan report for 10.10.10.244
+Host is up, received user-set (0.083s latency).
+Scanned at xxxx-xx-xx xx:xx:xx xxx for 11s
+Not shown: 997 closed ports
+Reason: 997 resets
+PORT   STATE SERVICE REASON       VERSION
+22/tcp open  ssh     tcp-response OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+53/tcp open  domain  tcp-response ISC BIND 9.16.1 (Ubuntu Linux)
+80/tcp open  http    tcp-response Apache httpd 2.4.41 ((Ubuntu))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at xxx xxx xx xx:xx:xx:xx xxxx -- 1 IP address (1 host up) scanned in 10.94 seconds

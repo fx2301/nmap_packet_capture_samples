@@ -1,0 +1,62 @@
+# Nmap 7.91 scan initiated xxx xxx xx xx:xx:xx:xx xxxx as: nmap -n -Pn -sZ -sV --top-ports 1000 -oN data/nmap_sctp_cookie_echo_scan_with_version_10.10.10.244_top_1000.nmap -vv 10.10.10.244
+Nmap scan report for 10.10.10.244
+Host is up, received user-set (0.080s latency).
+Scanned at xxxx-xx-xx xx:xx:xx xxx for 3s
+
+PORT       STATE         SERVICE       REASON               VERSION
+7/sctp     open|filtered tcpwrapped    no-response
+9/sctp     open|filtered tcpwrapped    no-response
+20/sctp    open|filtered tcpwrapped    no-response
+21/sctp    open|filtered tcpwrapped    no-response
+22/sctp    open|filtered tcpwrapped    no-response
+80/sctp    open|filtered tcpwrapped    no-response
+179/sctp   open|filtered tcpwrapped    no-response
+443/sctp   open|filtered tcpwrapped    no-response
+1167/sctp  open|filtered tcpwrapped    no-response
+1812/sctp  open|filtered tcpwrapped    no-response
+1813/sctp  open|filtered tcpwrapped    no-response
+2049/sctp  open|filtered tcpwrapped    no-response
+2225/sctp  open|filtered tcpwrapped    no-response
+2427/sctp  open|filtered tcpwrapped    no-response
+2904/sctp  open|filtered tcpwrapped    no-response
+2905/sctp  open|filtered tcpwrapped    no-response
+2944/sctp  open|filtered tcpwrapped    no-response
+2945/sctp  open|filtered tcpwrapped    no-response
+3097/sctp  open|filtered tcpwrapped    no-response
+3565/sctp  open|filtered tcpwrapped    no-response
+3863/sctp  open|filtered tcpwrapped    no-response
+3864/sctp  filtered      asap-sctp-tls proto-unreach ttl 63
+3868/sctp  open|filtered tcpwrapped    no-response
+4739/sctp  filtered      ipfix         proto-unreach ttl 63
+4740/sctp  open|filtered tcpwrapped    no-response
+5060/sctp  open|filtered tcpwrapped    no-response
+5061/sctp  open|filtered tcpwrapped    no-response
+5090/sctp  open|filtered tcpwrapped    no-response
+5091/sctp  open|filtered tcpwrapped    no-response
+5672/sctp  filtered      amqp          proto-unreach ttl 63
+5675/sctp  open|filtered tcpwrapped    no-response
+6704/sctp  open|filtered tcpwrapped    no-response
+6705/sctp  open|filtered tcpwrapped    no-response
+6706/sctp  open|filtered tcpwrapped    no-response
+7626/sctp  open|filtered tcpwrapped    no-response
+8471/sctp  open|filtered tcpwrapped    no-response
+9082/sctp  open|filtered tcpwrapped    no-response
+9084/sctp  open|filtered tcpwrapped    no-response
+9899/sctp  open|filtered tcpwrapped    no-response
+9900/sctp  open|filtered tcpwrapped    no-response
+9901/sctp  open|filtered tcpwrapped    no-response
+9902/sctp  open|filtered tcpwrapped    no-response
+11997/sctp open|filtered tcpwrapped    no-response
+11998/sctp open|filtered tcpwrapped    no-response
+11999/sctp open|filtered tcpwrapped    no-response
+14001/sctp filtered      sua           proto-unreach ttl 63
+20049/sctp open|filtered tcpwrapped    no-response
+29118/sctp open|filtered tcpwrapped    no-response
+29168/sctp open|filtered tcpwrapped    no-response
+29169/sctp open|filtered tcpwrapped    no-response
+36412/sctp open|filtered tcpwrapped    no-response
+36422/sctp filtered      x2-control    proto-unreach ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at xxx xxx xx xx:xx:xx:xx xxxx -- 1 IP address (1 host up) scanned in 3.69 seconds

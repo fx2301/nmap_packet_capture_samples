@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated xxx xxx xx xx:xx:xx:xx xxxx as: nmap -n -Pn -sT --top-ports 1000 -oN data/nmap_connect_scan_10.10.10.244_top_1000.nmap -vv 10.10.10.244
+Nmap scan report for 10.10.10.244
+Host is up, received user-set (0.082s latency).
+Scanned at xxxx-xx-xx xx:xx:xx xxx for 2s
+Not shown: 997 closed ports
+Reason: 997 conn-refused
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+53/tcp open  domain  syn-ack
+80/tcp open  http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at xxx xxx xx xx:xx:xx:xx xxxx -- 1 IP address (1 host up) scanned in 2.28 seconds

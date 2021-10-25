@@ -1,0 +1,24 @@
+# Nmap 7.91 scan initiated xxx xxx xx xx:xx:xx:xx xxxx as: nmap -n -Pn -sS -sV --top-ports 1000 -oN data/nmap_syn_scan_with_version_10.10.11.108_top_1000.nmap -vv 10.10.11.108
+Nmap scan report for 10.10.11.108
+Host is up, received user-set (0.082s latency).
+Scanned at xxxx-xx-xx xx:xx:xx xxx for 14s
+Not shown: 988 closed ports
+Reason: 988 resets
+PORT     STATE SERVICE       REASON          VERSION
+53/tcp   open  domain        syn-ack ttl 127 Simple DNS Plus
+80/tcp   open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0
+88/tcp   open  kerberos-sec  syn-ack ttl 127 Microsoft Windows Kerberos (server time: 2021-10-25 21:59:00Z)
+135/tcp  open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp  open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+389/tcp  open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: return.local0., Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds? syn-ack ttl 127
+464/tcp  open  kpasswd5?     syn-ack ttl 127
+593/tcp  open  ncacn_http    syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped    syn-ack ttl 127
+3268/tcp open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: return.local0., Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped    syn-ack ttl 127
+Service Info: Host: PRINTER; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at xxx xxx xx xx:xx:xx:xx xxxx -- 1 IP address (1 host up) scanned in 14.34 seconds

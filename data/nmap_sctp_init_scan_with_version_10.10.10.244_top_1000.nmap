@@ -1,0 +1,62 @@
+# Nmap 7.91 scan initiated xxx xxx xx xx:xx:xx:xx xxxx as: nmap -n -Pn -sY -sV --top-ports 1000 -oN data/nmap_sctp_init_scan_with_version_10.10.10.244_top_1000.nmap -vv 10.10.10.244
+Nmap scan report for 10.10.10.244
+Host is up, received user-set (0.081s latency).
+Scanned at xxxx-xx-xx xx:xx:xx xxx for 3s
+
+PORT       STATE    SERVICE         REASON               VERSION
+7/sctp     filtered echo            no-response
+9/sctp     filtered discard         no-response
+20/sctp    filtered ftp-data        no-response
+21/sctp    filtered ftp             no-response
+22/sctp    filtered ssh             no-response
+80/sctp    filtered http            no-response
+179/sctp   filtered bgp             no-response
+443/sctp   filtered https           no-response
+1167/sctp  filtered cisco-ipsla     no-response
+1812/sctp  filtered radius          no-response
+1813/sctp  filtered radacct         no-response
+2049/sctp  filtered nfs             proto-unreach ttl 63
+2225/sctp  filtered rcip-itu        no-response
+2427/sctp  filtered mgcp-gateway    no-response
+2904/sctp  filtered m2ua            no-response
+2905/sctp  filtered m3ua            no-response
+2944/sctp  filtered megaco-h248     no-response
+2945/sctp  filtered h248-binary     no-response
+3097/sctp  filtered itu-bicc-stc    no-response
+3565/sctp  filtered m2pa            no-response
+3863/sctp  filtered asap-sctp       no-response
+3864/sctp  filtered asap-sctp-tls   no-response
+3868/sctp  filtered diameter        proto-unreach ttl 63
+4739/sctp  filtered ipfix           no-response
+4740/sctp  filtered ipfixs          no-response
+5060/sctp  filtered sip             no-response
+5061/sctp  filtered sip-tls         proto-unreach ttl 63
+5090/sctp  filtered car             no-response
+5091/sctp  filtered cxtp            no-response
+5672/sctp  filtered amqp            no-response
+5675/sctp  filtered v5ua            no-response
+6704/sctp  filtered frc-hp          no-response
+6705/sctp  filtered frc-mp          proto-unreach ttl 63
+6706/sctp  filtered frc-lp          no-response
+7626/sctp  filtered simco           no-response
+8471/sctp  filtered pim-port        no-response
+9082/sctp  filtered lcs-ap          no-response
+9084/sctp  filtered aurora          no-response
+9899/sctp  filtered sctp-tunneling  no-response
+9900/sctp  filtered iua             no-response
+9901/sctp  filtered enrp-sctp       no-response
+9902/sctp  filtered enrp-sctp-tls   no-response
+11997/sctp filtered wmereceiving    no-response
+11998/sctp filtered wmedistribution no-response
+11999/sctp filtered wmereporting    no-response
+14001/sctp filtered sua             no-response
+20049/sctp filtered nfsrdma         no-response
+29118/sctp filtered sgsap           no-response
+29168/sctp filtered sbcap           no-response
+29169/sctp filtered iuhsctpassoc    proto-unreach ttl 63
+36412/sctp filtered s1-control      no-response
+36422/sctp filtered x2-control      no-response
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at xxx xxx xx xx:xx:xx:xx xxxx -- 1 IP address (1 host up) scanned in 3.64 seconds

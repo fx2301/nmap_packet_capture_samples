@@ -1,0 +1,7 @@
+# Nmap 7.91 scan initiated xxx xxx xx xx:xx:xx:xx xxxx as: nmap -n -Pn -sA --top-ports 1000 -oN data/nmap_ack_scan_10.10.10.244_top_1000.nmap -vv 10.10.10.244
+Nmap scan report for 10.10.10.244
+Host is up, received user-set (0.081s latency).
+All 1000 scanned ports on 10.10.10.244 are unfiltered because of 1000 resets
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at xxx xxx xx xx:xx:xx:xx xxxx -- 1 IP address (1 host up) scanned in 2.67 seconds
